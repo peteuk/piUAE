@@ -17,3 +17,4 @@ debug=""
 ./bootstrap.sh
 ./configure $debug $base $cd32 $a600 $scsi $jit $other
 make
+mv src/uae piuae_gtk
